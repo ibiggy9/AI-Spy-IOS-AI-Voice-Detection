@@ -1,0 +1,47 @@
+{
+  "expo": {
+    "name": "Ai-SPY",
+    "slug": "AISpyMobile",
+    "version": "1.1.0",
+    "plugins": [
+      [
+        "expo-document-picker",
+        {
+          "iCloudContainerEnvironment": "Production"
+        }
+      ]
+     
+    ],
+    "orientation": "portrait",
+    "icon": "./assets/aispyAppIcon.png",
+    "userInterfaceStyle": "dark",
+    "splash": {
+      "image": "./assets/SplashNew.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": false,
+      "buildNumber": "1.1.0",
+      "bundleIdentifier": "com.ibiggy.AISpyMobile"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.ibiggy.AISpyMobile"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "96a8aa7c-4e75-4963-8f61-e75c94e754d8"
+      }
+    }
+  }
+}
