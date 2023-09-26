@@ -3,7 +3,7 @@ import { Platform } from 'react-native';
 import Purchases, { CustomerInfo, PurchasesOffering } from 'react-native-purchases';
 
 const APIKeys = {
-  apple: 'appl_cKZRuPITLQOLGtzoBZqLHOxsWwe',
+  apple: '',
 };
 
 const membershipTypes = {
